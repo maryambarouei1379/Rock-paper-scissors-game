@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.Background {
+  width: 65%;
+  height: 540px;
+  background: url("/img/poster.png") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.Top-rectangle {
+  width: 67%;
+  height: 300px;
+  margin-left: 50px;
+  margin-bottom: 160px;
+  border: 1px solid blue;
+  background: rgb(15, 15, 148);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  position: absolute;
+   bottom: 8%; 
+}
+
+.Bottom-rectangle {
+  width: 67%;
+  height: 300px;
+  margin-right: 50px;
+  margin-top: 160px;
+  border: 1px solid blue;
+  background: blue;
+  color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: static;
+}

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.Background {
+  width: 75%;
+  height: 540px;
+  background: url("/img/poster.png") no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.Top-rectangle {
+  width: 60%;
+  height: 55%;
+  margin-left: 50px;
+  margin-bottom: 160px;
+  border: 1px solid blue;
+  background: rgb(15, 15, 148);
+  background-attachment: fixed;
+  color: #fff;
+  /* display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start; */
+   position: absolute;
+  bottom: 8%; 
+}
+.Rock-top {
+  width: 50%;
+  height: 26%;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 6% 25%;
+}
+.Rock-top p {
+  text-align: left;
+  line-height: 100%;
+  font: bolder;
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 4%;
+}
+
+
+.Score {
+  width: 35%;
+  height: 75%;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  padding-left: 17px;
+  padding-top: 5px;
+  color: black;
+  margin-right: 12px;
+  margin-top: 9px;
+}
+
+#number {
+  font-size: 1.7em;
+  padding-top: 25x;
+}
+.P {
+  color: black;
+  text-align: center;
+
+}
+
+.Bottom-rectangle {
+  width: 60%;
+  height: 55%;
+  margin-right: 50px;
+  margin-top: 160px;
+  border: 1px solid blue;
+  background: blue;
+  background-attachment: fixed;
+  color: #fff;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; */
+  position: static;
+}
+
+.Rock-bottom {
+  width: 50%;
+  height: 26%;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 6% 23%;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Score-bottom{
+  width: 25%;
+  height: 75%;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  padding-left: 2px;
+  padding-top: 5px;
+  color: black;
+  margin-right: 18px;
+  margin-top: 9px;
+}
