@@ -12,7 +12,7 @@
   align-items: center;
   border-radius: 20px;
   text-align: center;
-  position: relative;
+  position: absolute;
 }
 
 .Top-photo {
@@ -24,28 +24,20 @@
   background: rgb(15, 15, 148);
   background-attachment: fixed;
   color: #fff;
-  /* display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: flex-start; */
   position: absolute;
   bottom: 8%;
 }
 .Top-photo p {
-  /* width: 40%; */
   height: 6vh;
-
   margin: 15%;
   margin-top: 3%;
-  /* margin-right: 80px; */
-  display: flex;
+  /* display: flex; */
 }
 .Rock-top {
   width: 50%;
   height: 26%;
   border: 1px solid white;
   border-radius: 8px;
-  /* margin: 10vh; */
   margin-top: 1.8vw;
   display: block;
   margin-left: 135px;
@@ -56,7 +48,6 @@
   font-size: 0.8em;
   width: 6vw;
   height: 7vh;
-  /* border: 1px solid white; */
   border-radius: 4px;
   background-color: white;
   padding-left: 0.5vw;
@@ -147,14 +138,8 @@ p {
   margin-top: 160px;
   border: 1px solid blue;
   background: blue;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   color: #fff;
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start; */
-  position: static;
 }
 
 .Rock-bottom {
@@ -183,7 +168,6 @@ p {
   font-size: 0.8em;
   width: 6vw;
   height: 7vh;
-  /* border: 1px solid white; */
   border-radius: 4px;
   background-color: white;
   padding-left: 0.5vw;
@@ -211,41 +195,8 @@ p {
   top: 5px;
 }
 
-/* div {
-  width: 100px;
-  height: 20px;
-  background-color: orange;
-  border-radius: 6px;
-  margin-left: 560px;
-  margin-top: 250px;
-  padding: 10px 10px;
-  position: relative;
-  text-align: center;
-  box-shadow: 0 0 15px 1px orchid;
-} */
-/* a {
-  text-decoration: none;
-  font-style: italic;
-  color: white;
-  background-color: orange;
-}
-/* div :hover{
-  background-color: orangered; */
-
-/* a :link{
-  color: white;
-} */
-
-/* * {
-  background-color: yellow;
-}  */
-
-/* div :hover {
-    box-shadow: 0 0 15px 1px orchid;
-} */
 .click-top {
   margin: 20px;
-
   border: none;
   outline: none;
   padding: 7px 20px;
@@ -259,13 +210,8 @@ p {
   left: 34.1vw;
 }
 
-/* .sani-button:hover {
-    box-shadow: 0 0 15px 1px olivedrab;
-} */
-
 .click-bottom {
   margin: 20px;
-
   border: none;
   outline: none;
   padding: 7px 20px;
@@ -277,4 +223,59 @@ p {
   position: absolute;
   top: 34vw;
   left: 61vw;
+}
+ .circle-light-blue-bottom {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 8px solid lightseagreen;
+  background-color: white;
+  position: absolute;
+  right: 190px;
+  top: 375px;
+}
+
+.circle-orange-bottom {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 8px solid orange;
+  background-color: white;
+  position: absolute;
+  right: 480px;
+  top: 375px;
+} 
+.text-bottom-left {
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 350px;
+  right: 490px;
+}
+.text-bottom-center {
+  color: #fff;
+  font-size: 21px;
+  font: bolder;
+  position: absolute;
+  top: 395px;
+  right: 340px;
+}
+.text-bottom-right {
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 350px;
+  right: 180px;
+}
+.click-bottom-center {
+  margin: 20px;
+  padding: 3px 20px;
+  background: white;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  position: absolute;
+  top: 400px;
+  left: 498px;
 }
