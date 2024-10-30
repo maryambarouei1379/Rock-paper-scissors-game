@@ -188,7 +188,7 @@ p {
   margin-top: 160px;
   border: 1px solid blue;
   background: blue;
-    color: #fff;
+  color: #fff;
 }
 
 .Rock-bottom {
@@ -243,8 +243,6 @@ p {
   left: 20px;
   top: 5px;
 }
-
-
 
 .click-bottom {
   margin: 20px;
@@ -329,4 +327,208 @@ p {
   position: absolute;
   top: 400px;
   left: 498px;
+}
+
+@media (max-width: 1200px) {
+  .Top-photo {
+    bottom: 13%;
+  }
+  .Rock-top {
+    height: 20%;
+  }
+  .Score {
+    padding-bottom: 10vh;
+    top: 2.1vw;
+    right: 11.4vw;
+  }
+
+  #number {
+    font-size: 2.4vw;
+    top: 5px;
+  }
+  .p {
+    font-size: 0.8vw;
+    top: 2px;
+  }
+
+  .click-top {
+    padding: 7px 18px;
+    top: 18.9vw;
+  }
+  .Bottom-photo {
+    margin-top: 180px;
+  }
+
+  .Rock-bottom {
+    height: 23%;
+    margin: 2.5% 23%;
+  }
+
+  .Score-bottom {
+    padding-bottom: 10vh;
+    top: 19.3vw;
+    right: 16.6vw;
+  }
+
+  #number-bottom {
+    font-size: 2.6vw;
+    left: 17px;
+    top: 8px;
+  }
+  .p-bottom {
+    font-size: 0.8vw;
+    top: 5px;
+  }
+
+  .click-bottom {
+    padding: 7px 20px;
+    top: 37vw;
+    left: 60vw;
+  }
+  .text-bottom-right {
+    top: 330px;
+  }
+  .text-bottom-left {
+    top: 330px;
+    right: 460px;
+  }
+  .circle-light-blue-bottom {
+    top: 360px;
+  }
+
+  .circle-orange-bottom {
+    right: 450px;
+    top: 360px;
+  }
+  .click-bottom-center {
+    top: 388px;
+    left: 458px;
+  }
+  .text-bottom-center {
+    top: 385px;
+    right: 320px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Rock-top {
+    margin-left: 115px;
+  }
+  .Score {
+    right: 10.5vw;
+  }
+
+  .circle-orange {
+    width: 45px;
+    height: 45px;
+    bottom: 150px;
+    left: 200px;
+  }
+  .orange-hand {
+    left: 6px;
+  }
+  .circle-light-blue {
+    width: 45px;
+    height: 45px;
+    left: 145px;
+    bottom: 105px;
+  }
+  .light-blue-hand {
+    left: 6px;
+  }
+  .circle-blue {
+    width: 45px;
+    height: 45px;
+    left: 255px;
+    bottom: 105px;
+  }
+  .blue-hand {
+    left: 5px;
+  }
+  .circle-pink {
+    width: 45px;
+    height: 45px;
+    left: 230px;
+    bottom: 40px;
+  }
+  .pink-hand {
+    left: 1px;
+    top: 2px;
+  }
+  .circle-purple {
+    width: 45px;
+    height: 45px;
+    left: 165px;
+    bottom: 40px;
+  }
+  .purple-lizard {
+    left: 4px;
+    top: 4px;
+  }
+
+  .click-top {
+    font-size: 11px;
+    padding: 2px 20px;
+    top: 22.9vw;
+    left: 33.1vw;
+  }
+
+  .Rock-bottom {
+    height: 23%;
+    margin: 2.5% 23%;
+  }
+
+  .Score-bottom {
+    top: 23.3vw;
+    right: 17vw;
+  }
+
+  #number-bottom {
+    left: 15px;
+    top: 8px;
+  }
+  .p-bottom {
+    top: 5px;
+    left: 16px;
+  }
+
+  .click-bottom {
+    padding: 7px 20px;
+    top: 45vw;
+    left: 58vw;
+  }
+  .circle-light-blue-bottom {
+    width: 95px;
+    height: 95px;
+    right: 165px;
+    top: 355px;
+  }
+
+  .circle-orange-bottom {
+    width: 95px;
+    height: 95px;
+    right: 380px;
+    top: 355px;
+  }
+
+  .text-bottom-left {
+    font-size: 10px;
+    top: 330px;
+    right: 400px;
+  }
+
+  .text-bottom-right {
+    font-size: 10px;
+    top: 330px;
+    right: 165px;
+  }
+  .text-bottom-center {
+    font-size: 17px;
+    right: 277px;
+  }
+  .click-bottom-center {
+    padding: 2px 10px;
+    top: 385px;
+    left: 363px;
+  }
 }
